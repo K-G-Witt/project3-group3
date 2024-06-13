@@ -7,11 +7,15 @@
 The source data collected for this project was produced by the Centers for Disease Control and Prevention (CDC), Division for Heart Disease and Stroke Prevention. This data asset is publicly available to all without restrictions (public).
 
 ## Installation and Run Instructions:
-This repo contains the following files:
-1. XXX
-2. XXX
-3. XXX
-  
+This repo contains the following:
+1. In the **Resources** subfolder, each year of data from 1999 to 2019 are saved as **.csv** files
+2. The **project3-group3_ERD** provides the relationship between these **.csv** files
+3. **graph_visualisation.ipynb** is the script to recreate the graph visualisations
+4. **mapping_visualisation.ipynb** is the script to recreate the **.csv** files called in the **index.html** script
+5. **index.html** is the script to recreate the mapping visualisation in Google Chrome
+6. **logic.js** is called by the **index.html** to support the mapping visualisation
+7. **style.css** if called by the **index.html** to support the mapping visualisation
+
 List here anything we had to pip install to add to conda environment to install new packages, etc.
 
 
@@ -25,6 +29,7 @@ To avoid the **index.html** being blocked by your computer's Cross-Origin Resour
 2. In your web browser, navigate to: **http://localhost:8000**
 3. Next, navigate through your directories within your web browser to the folder containing the **index.html** file
 4. Double-click on the **index.html** file to launch the map in Google Chrome
+
 
 
 
