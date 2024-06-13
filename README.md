@@ -39,7 +39,7 @@ The CDC has made this data asset is publicly available to all without restrictio
 
 
 ## Credits:
-This code was compiled and written by Charles Morgan, Mahsa Hesampour, Riona, and Katrina Witt for Project 3 in the 2024 Data Analytics Boot Camp hosted by Monash University. 
+This code was compiled and written by Charles Morgan, Mahsa Hesampour, Riona Espedido, and Katrina Witt for Project 3 in the 2024 Data Analytics Boot Camp hosted by Monash University. 
 
 ## Additional credits are declared below:
 
