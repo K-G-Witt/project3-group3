@@ -13,6 +13,20 @@ Cause of death is defined according to the underlying cause of death listed on t
 5. Stroke: ICD‐10 codes I60-I69.
 
 ## Installation and Run Instructions:
+### Graph Visualisations:
+Before commencing, you may need to add the hvplot library to your python environnment:
+1. Open **Gitbash** and activate your virtual environment
+2. Type: **pip install hvplot**
+
+### Mapping Visualisation:
+To avoid the **index.html** being blocked by your computer's Cross-Origin Resource Sharing (CORS) policy, you will need to run the following steps before opening Google Chrome:
+1. Open **Gitbash**  and activate your virtual environment
+2. Type: **python -m http.server 8000**
+3. In your web browser, navigate to: **http://localhost:8000**
+4. Next, navigate through your directories within your web browser to the folder containing the **index.html** file
+5. Double-click on the **index.html** file to launch the map in Google Chrome
+
+## Usage Instructions:
 This repo contains the following:
 1. In the **Resources** subfolder, each year of data from 1999 to 2019 are saved as **.csv** files
 2. The **project3-group3_ERD** provides the relationship between these **.csv** files
@@ -21,20 +35,8 @@ This repo contains the following:
 5. **index.html** is the script to recreate the mapping visualisation in Google Chrome
 6. **logic.js** is called by the **index.html** to support the mapping visualisation
 7. **style.css** if called by the **index.html** to support the mapping visualisation
+   
 
-List here anything we had to pip install to add to conda environment to install new packages, etc.
-
-
-## Usage Instructions:
-
-### Graph Visualisations:
-
-### Mapping Visualisation:
-To avoid the **index.html** being blocked by your computer's Cross-Origin Resource Sharing (CORS) policy, you will need to run the following steps before opening Google Chrome:
-1. Open **Gitbash** and type: **python -m http.server 8000**
-2. In your web browser, navigate to: **http://localhost:8000**
-3. Next, navigate through your directories within your web browser to the folder containing the **index.html** file
-4. Double-click on the **index.html** file to launch the map in Google Chrome
 
 
 
