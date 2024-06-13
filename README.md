@@ -2,9 +2,8 @@
 
 ![download](https://github.com/K-G-Witt/project3-group3/assets/70048005/62a35724-741b-46c3-a663-bba10843c8af)
 
-# Project Description:
-## Incidence of Cardiovascular Disease in the United States by Age, Ethnicity, Gender, and Year:
-The source data collected for this project was produced by the Centers for Disease Control and Prevention (CDC), Division for Heart Disease and Stroke Prevention. 
+# Incidence of Cardiovascular Disease in the United States by Age, Ethnicity, Gender, and Year:
+The source data collected for this project was produced by the Centers for Disease Control and Prevention (CDC), Division for Heart Disease and Stroke Prevention. These datasets document rates and trends in cardiovascular disease (i.e., heart disease and stroke) mortality by US State, County (or county equivalent), age group (ages 35–64 years, ages 65 years and older), race/ethnicity (non-Hispanic American Indian/Alaska Native, non-Hispanic Asian/Pacific Islander, non-Hispanic Black, Hispanic, non-Hispanic White), and sex (women, men). 
 
 ## Installation and Run Instructions:
 This repo contains the following:
