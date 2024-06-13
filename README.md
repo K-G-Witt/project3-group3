@@ -7,18 +7,29 @@
 The source data collected for this project was produced by the Centers for Disease Control and Prevention (CDC), Division for Heart Disease and Stroke Prevention. This data asset is publicly available to all without restrictions (public).
 
 ## Installation and Run Instructions:
+This repo contains the following files:
+1. XXX
+2. XXX
+3. XXX
+  
 List here anything we had to pip install to add to conda environment to install new packages, etc.
 
 
 ## Usage Instructions:
 
-### Mapping Function:
-To avoid the **index.html** being blocked by your computer's Cross-Origin Resource Sharing (CORS) policy, you will need to run the following steps:
+### Graph Visualisations:
 
-1. Open **Gitbash** and type: python -m http.server 8000
-2. Navigate to **http://localhost:8000** in your web browser
-3. In your web browser, navigate through your directories to the folder containing the **index.html** file, and double-click
-4. This will launch the **index.html** file
+### Mapping Visualisation:
+To avoid the **index.html** being blocked by your computer's Cross-Origin Resource Sharing (CORS) policy, you will need to run the following steps before opening Google Chrome:
+1. Open **Gitbash** and type: **python -m http.server 8000**
+2. In your web browser, navigate to: **http://localhost:8000**
+3. Next, navigate through your directories within your web browser to the folder containing the **index.html** file
+4. Double-click on the **index.html** file to launch the map in Google Chrome
+
+
+
+
+
 
 
 ## Credits:
