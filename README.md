@@ -4,7 +4,7 @@
 
 # Project Description:
 ## Incidence of Cardiovascular Disease in the United States by Age, Ethnicity, Gender, and Year:
-The source data collected for this project was produced by the Centers for Disease Control and Prevention (CDC), Division for Heart Disease and Stroke Prevention. This data asset is publicly available to all without restrictions (public).
+The source data collected for this project was produced by the Centers for Disease Control and Prevention (CDC), Division for Heart Disease and Stroke Prevention. 
 
 ## Installation and Run Instructions:
 This repo contains the following:
@@ -33,7 +33,8 @@ To avoid the **index.html** being blocked by your computer's Cross-Origin Resour
 
 
 
-
+## Data Ethics Statement:
+The CDC has made this data asset is publicly available to all without restrictions (public).
 
 
 
