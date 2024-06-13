@@ -5,6 +5,13 @@
 # Incidence of Cardiovascular Disease in the United States by Age, Ethnicity, Gender, and Year:
 The source data collected for this project was produced by the Centers for Disease Control and Prevention (CDC), Division for Heart Disease and Stroke Prevention. These datasets document rates and trends in cardiovascular disease (i.e., heart disease and stroke) mortality by US State, County (or county equivalent), age group (ages 35–64 years, ages 65 years and older), race/ethnicity (non-Hispanic American Indian/Alaska Native, non-Hispanic Asian/Pacific Islander, non-Hispanic Black, Hispanic, non-Hispanic White), and sex (women, men). 
 
+Cause of death is defined according to the underlying cause of death listed on the death certificate and classified according to the following International Classification of Disease, version 10 (ICD-10) codes:
+1. Cardiovascular Disease Overall (CVD): ICD-10 codes I00-I99;
+2. Heart disease: ICD-10 codes I00-I09, I11, I13, I20–I51;
+3. Coronary heart disease (CHD): ICD-10 codes I20-I25;
+4. Heart failure: ICD-10 code I50; and
+5. Stroke: ICD‐10 codes I60-I69.
+
 ## Installation and Run Instructions:
 This repo contains the following:
 1. In the **Resources** subfolder, each year of data from 1999 to 2019 are saved as **.csv** files
