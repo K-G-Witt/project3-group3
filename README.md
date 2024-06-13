@@ -12,6 +12,14 @@ List here anything we had to pip install to add to conda environment to install 
 
 ## Usage Instructions:
 
+### Mapping Function:
+To avoid the **index.html** being blocked by your computer's Cross-Origin Resource Sharing (CORS) policy, you will need to run the following steps:
+
+1. Open **Gitbash** and type: python -m http.server 8000
+2. Navigate to **http://localhost:8000** in your web browser
+3. In your web browser, navigate through your directories to the folder containing the **index.html** file, and double-click
+4. This will launch the **index.html** file
+
 
 ## Credits:
 This code was compiled and written by Charles Morgan, Mahsa Hesampour, Riona, and Katrina Witt for Project 3 in the 2024 Data Analytics Boot Camp hosted by Monash University. 
