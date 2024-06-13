@@ -30,20 +30,20 @@ To avoid the **index.html** being blocked by your computer's Cross-Origin Resour
 This repo contains the following:
 1. In the **Resources** subfolder, each year of data from 1999 to 2019 are saved as **.csv** files
 2. The **project3-group3_ERD** provides the relationship between these **.csv** files
-3. **graph_visualisation.ipynb** is the script to recreate the graph visualisations
-4. **mapping_visualisation.ipynb** is the script to recreate the **.csv** files called in the **index.html** script
-5. **index.html** is the script to recreate the mapping visualisation in Google Chrome
-6. **logic.js** is called by the **index.html** to support the mapping visualisation
-7. **style.css** if called by the **index.html** to support the mapping visualisation
+
+### Graph Visualisation:
+4. **graph_visualisation.ipynb** is the script to recreate the graph visualisations
+
+### Mapping Visualisation:
+6. **mapping_visualisation.ipynb** is the script to recreate the **.csv** files called in the **index.html** script
+7. **index.html** is the script to recreate the mapping visualisation in Google Chrome
+8. **logic.js** is called by the **index.html** to support the mapping visualisation
+9. **style.css** is called by the **index.html** to support the mapping visualisation
+10. **us-states.json** is called by the **index.html** to define the boundaries of the US States
    
-
-
-
-
 
 ## Data Ethics Statement:
 The CDC has made this data asset is publicly available to all without restrictions (public).
-
 
 
 ## Credits:
