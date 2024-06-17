@@ -32,7 +32,7 @@ This repo contains the following:
 3. In the **Presentation** subfolder, the **Cardiovascular Disease.pptx** PowerPoint presentation is saved
 
 ### HVplots:
-1. **graph_visualisation.ipynb** is the script to recreate the graph visualisations
+1. **HvPlot_DataExploration.ipynb** is the script to recreate the HVplot visualisations
 
 ### Leaflet:
 1. **index.html** is the script to recreate the mapping visualisation in Google Chrome
