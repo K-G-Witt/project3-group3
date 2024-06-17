@@ -43,6 +43,8 @@ This repo contains the following:
 Once launched, the Google Chrome page should look something like this:
 ![map_screenshot](https://github.com/K-G-Witt/project3-group3/assets/156146173/c2569eb8-0f02-4c1a-86c2-2437f8bfc468)
 
+Users can select the year(s), cardiovascular disease type(s), and ethnic group(s) for which they are most interested in viewing data. Clicking on one of the US States for which data are available (shaded red) will then display data for the selected year(s), cardiovascular disease type(s), and ethnic group(s).
+
  
 ## Data Ethics Statement:
 The CDC has made this data asset publicly available to all without restrictions (public).
