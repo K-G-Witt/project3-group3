@@ -99,6 +99,7 @@ function stateDataAvailable(stateAbbreviation) {
 // Load the CSV data for a specific state and selected criteria when clicked
 function loadCSVData(stateAbbreviation, year, diseaseType, selectedEthnicity) {
   console.log(`Loading data for ${stateAbbreviation} in ${year} for ${diseaseType} and ${selectedEthnicity}`);
+  
   // Load the CSV data for the selected state
   d3.csv("Averaged_Cleaned_filtered_data.csv").then(function(data) {
     console.log(`Data loaded: ${data.length} records`);
@@ -107,11 +108,11 @@ function loadCSVData(stateAbbreviation, year, diseaseType, selectedEthnicity) {
     console.log('First few rows:', data.slice(0, 5));
     
     // Filter data based on selected criteria
-    let filteredData = data.filter(d => 
+    let filteredData = data.filter(d =>
       d['US States'] === stateAbbreviation &&
       parseFloat(d.Year) === parseFloat(year) &&
       d['Heart Disease Type'] === diseaseType &&
-      d['Ethnicity'] === selectedEthnicity
+      d['Ethnicity'].trim().toLowerCase() === selectedEthnicity.trim().toLowerCase()
     );
     console.log(`Filtered data:`, filteredData);
 
@@ -125,12 +126,12 @@ function loadCSVData(stateAbbreviation, year, diseaseType, selectedEthnicity) {
       let groupedDataByGender = groupBy(filteredData, 'Gender');
       // Iterate over each gender
       Object.entries(groupedDataByGender).forEach(([gender, genderData]) => {
-        popupContent += `<h2>Gender: ${gender}</h2>`;
+        popupContent += `<h3>Gender: ${gender}</h3>`;
         // Group gender data by age range
         let groupedDataByAge = groupBy(genderData, 'Age range');
         // Iterate over each age range
         Object.entries(groupedDataByAge).forEach(([ageRange, ageData]) => {
-          popupContent += `<h2>Age Range: ${ageRange}</h2>`;
+          popupContent += `<h3>Age Range: ${ageRange}</h3>`;
           // Display incidence data for each age range
           ageData.forEach(entry => {
             popupContent += `<p>Incidence: ${entry['Data_Value/100_000 People']}</p>`;
@@ -150,9 +151,10 @@ function loadCSVData(stateAbbreviation, year, diseaseType, selectedEthnicity) {
       alert(`Cannot find center for ${stateAbbreviation}`);
     }
   }).catch(function(error) {
-    console.error('Error loading CSV data:', error);
+    console.error('Error loading or filtering CSV data:', error);
   });
 }
+
 
 // Function to group array of objects by key
 function groupBy(array, key) {
