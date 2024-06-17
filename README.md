@@ -43,7 +43,8 @@ This repo contains the following:
 Once launched, the Google Chrome page should look something like this:
 ![map_screenshot](https://github.com/K-G-Witt/project3-group3/assets/156146173/c2569eb8-0f02-4c1a-86c2-2437f8bfc468)
 
-Users can select the year(s), cardiovascular disease type(s), and ethnic group(s) for which they are most interested in viewing data. Clicking on one of the US States for which data are available (shaded red) will then display data for the selected year(s), cardiovascular disease type(s), and ethnic group(s).
+Users can select the year(s), cardiovascular disease type(s), and ethnic group(s) for which they are most interested in viewing data. Clicking on one of the US States for which data are available (shaded red) will then display incidence data for the selected year(s), cardiovascular disease type(s), and ethnic group(s):
+![map_screenshot_2](https://github.com/K-G-Witt/project3-group3/assets/156146173/b1d285c5-0817-4f2a-916d-94df265c3f1c)
 
  
 ## Data Ethics Statement:
