@@ -28,7 +28,7 @@ To avoid the **index.html** being blocked by your computer's Cross-Origin Resour
 ## Usage Instructions:
 This repo contains the following:
 1. In the **Resources** subfolder, each year of data from 1999 to 2019 are saved as **.csv** files
-2. The **project3-group3_ERD** provides the relationship between these **.csv** files
+2. The **Database** subfolder, the separate **.csv** 
 
 ### HVplots:
 1. **graph_visualisation.ipynb** is the script to recreate the graph visualisations
