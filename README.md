@@ -32,16 +32,18 @@ This repo contains the following:
 2. The **project3-group3_ERD** provides the relationship between these **.csv** files
 
 ### Graph Visualisation:
-4. **graph_visualisation.ipynb** is the script to recreate the graph visualisations
+1. **graph_visualisation.ipynb** is the script to recreate the graph visualisations
 
 ### Mapping Visualisation:
-6. **mapping_visualisation.ipynb** is the script to recreate the **.csv** files called in the **index.html** script
-7. **index.html** is the script to recreate the mapping visualisation in Google Chrome
-8. **logic.js** is called by the **index.html** to support the mapping visualisation
-9. **style.css** is called by the **index.html** to support the mapping visualisation
-10. **us-states.json** is called by the **index.html** to define the boundaries of the US States
-   
+1. **index.html** is the script to recreate the mapping visualisation in Google Chrome
+2. **logic.js** is called by the **index.html** to support the mapping visualisation
+3. **style.css** is called by the **index.html** to support the mapping visualisation
+4. **us-states.json** is called by the **index.html** to define the boundaries of the US States
 
+Once launched, the Google Chrome page should look something like this:
+![map_screenshot](https://github.com/K-G-Witt/project3-group3/assets/156146173/c2569eb8-0f02-4c1a-86c2-2437f8bfc468)
+
+ 
 ## Data Ethics Statement:
 The CDC has made this data asset is publicly available to all without restrictions (public).
 
