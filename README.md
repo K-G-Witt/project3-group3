@@ -45,7 +45,7 @@ Once launched, the Google Chrome page should look something like this:
 
  
 ## Data Ethics Statement:
-The CDC has made this data asset is publicly available to all without restrictions (public).
+The CDC has made this data asset publicly available to all without restrictions (public).
 
 
 ## Credits:
