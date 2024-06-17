@@ -13,12 +13,12 @@ Cause of death is defined according to the underlying cause of death listed on t
 5. Stroke: ICD‐10 codes I60-I69.
 
 ## Installation and Run Instructions:
-### Graph Visualisations:
+### HVplots:
 Before commencing, you may need to add the hvplot library to your python environnment:
 1. Open **Gitbash** and activate your virtual environment
 2. Type: **pip install hvplot**
 
-### Mapping Visualisation:
+### Leaflet:
 To avoid the **index.html** being blocked by your computer's Cross-Origin Resource Sharing (CORS) policy, you will need to run the following steps before opening Google Chrome:
 1. Open **Gitbash**  and activate your virtual environment
 2. Type: **python -m http.server 8000**
