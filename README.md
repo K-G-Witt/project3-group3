@@ -57,8 +57,17 @@ This code was compiled and written by Charles Morgan, Mahsa Hesampour, Riona Esp
 
 ## Additional credits are declared below:
 
+### Disabling favicon requests in .html:
+https://stackoverflow.com/questions/1321878/how-to-prevent-favicon-ico-requests (Accessed June 10 2024).
+
+### Creating dropdown menus in .html:
+https://www.w3schools.com/howto/howto_js_dropdown.asp (Accessed June 10 2024).
+
 ### Reference material:
 Centers for Disease Control and Prevention, Division for Heart Disease and Stroke Prevention. Rates and Trends in Heart Disease and Stroke Mortality Among US Adults (35+) by County, Age Group, Race/Ethnicity, and Sex – 2000-2019: https://data.cdc.gov/Heart-Disease-Stroke-Prevention/Rates-and-Trends-in-Heart-Disease-and-Stroke-Morta/7b9s-s8ck/about_data (Accessed June 6 2024).
+
+### Selecting only filtered data from .csv in index.js:
+https://stackoverflow.com/questions/10615290/select-data-from-a-csv-before-loading-it-with-javascript-d3-library (Accessed June 13 2024).
 
 ### US States .json:
 https://catalog.data.gov/dataset/united-states-boundary-files/resource/c69158b0-085e-48b5-b839-9263b030f316 (Accessed June 10 2024).
