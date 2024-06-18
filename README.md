@@ -29,7 +29,8 @@ To avoid the **index.html** being blocked by your computer's Cross-Origin Resour
 This repo contains the following:
 1. In the **Resources** subfolder, each year of data from 1999 to 2019 are saved as **.csv** files
 2. In the **Database** subfolder, the separate **.csv** files are combined into an SQLlite database
-3. In the **Presentation** subfolder, the **Cardiovascular Disease.pptx** PowerPoint presentation is saved
+3. In the **Raw_Data_Cleaning.ipynb** file, the code to combine the separate **.csv** files, group data by State, and calcualte incidence per 100,000 persons
+4. In the **Presentation** subfolder, the **Cardiovascular Disease.pptx** PowerPoint presentation is saved
 
 ### HVplots:
 1. **HvPlot_DataExploration.ipynb** is the script to recreate the HVplot visualisations
