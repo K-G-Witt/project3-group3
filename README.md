@@ -42,12 +42,12 @@ This repo contains the following:
 4. **us-states.json** is called by the **index.html** to define the boundaries of the US States
 
 Once launched, the Google Chrome page should look something like this:
-![map_screenshot](https://github.com/K-G-Witt/project3-group3/assets/156146173/c2569eb8-0f02-4c1a-86c2-2437f8bfc468)
+![screenshot 1](https://github.com/K-G-Witt/project3-group3/assets/156146173/7756c988-a55a-459a-86ad-3f23192934d2)
 
 Users can select the year(s), cardiovascular disease type(s), and ethnic group(s) for which they are most interested in viewing data. Clicking on one of the US States for which data are available (shaded red) will then display incidence data for the selected year(s), cardiovascular disease type(s), and ethnic group(s):
-![map_screenshot_2](https://github.com/K-G-Witt/project3-group3/assets/156146173/b1d285c5-0817-4f2a-916d-94df265c3f1c)
+![screenshot 2](https://github.com/K-G-Witt/project3-group3/assets/156146173/ef83fa87-6824-4939-a2e3-9fe7158bda4f)
 
- 
+
 ## Data Ethics Statement:
 The CDC has made this data asset publicly available to all without restrictions (public).
 
