@@ -33,7 +33,9 @@ This repo contains the following:
 4. In the **Presentation** subfolder, the **Cardiovascular Disease.pptx** PowerPoint presentation is saved
 
 ### HVplots:
-1. **HvPlot_DataExploration.ipynb** is the script to recreate the HVplot visualisations
+1. **Revised_HvPlots_17-6-24.ipynb** is the script to recreate the HVplot visualisations.
+2. Run each cell in **Revised_HvPlots_17-6-24.ipynb** to see data visualisations.
+3. Choose which parameters you want to see in mapped in the plots.
 
 ### Leaflet:
 1. **index.html** is the script to recreate the mapping visualisation in Google Chrome
@@ -50,7 +52,8 @@ Users can select the year(s), cardiovascular disease type(s), and ethnic group(s
 
 ## Data Ethics Statement:
 The CDC has made this data asset publicly available to all without restrictions (public).
-
+The data may be biased towards people who have access toward healthcare and can have cause of death accurately determined.
+The data is grouped by ethnicity meaning that people with mixed ethinicity may be represented unevenly.
 
 ## Credits:
 This code was compiled and written by Charles Morgan, Mahsa Hesampour, Riona Espedido, and Katrina Witt for Project 3 in the 2024 Data Analytics Boot Camp hosted by Monash University. 
